@@ -12,4 +12,4 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
        	goverlay gamescope solaar bluez bluez-utils lib32-libpulse pipewire pipewire-pulse \
        	pipewire-alsa linux-headers xwaylandvideobridge protonplus polkit-gnome gnome-disk-utility \
 	timeshift xorg-xhost uwsm  nvidia nvidia-utils lib32-nvidia-utils nvidia-settings \
-       	opencl-nvidia pamac-all networkmanager greetd nwg-hello && sudo usermod -aG gamemode izaiaha && sudo systemctl enable fstrim.timer && sudo systemctl enable NetworkManager && sudo systemctl enable greetd.service && sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/auto-install.sh)
+       	opencl-nvidia pamac-all networkmanager greetd nwg-hello egl-wayland && sudo usermod -aG gamemode izaiaha && sudo systemctl enable fstrim.timer && sudo systemctl enable NetworkManager && sudo systemctl enable greetd.service && sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/auto-install.sh)
